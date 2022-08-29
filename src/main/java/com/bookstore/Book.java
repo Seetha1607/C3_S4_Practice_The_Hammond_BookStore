@@ -12,4 +12,7 @@ public class Book {
     private int isbnNumber;
     private String description;
     private double price;
+
+    public Book() {
+    }
 }
