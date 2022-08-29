@@ -8,4 +8,8 @@
 package com.bookstore;
 
 public class Book {
+    private String title;
+    private int isbnNumber;
+    private String description;
+    private double price;
 }
