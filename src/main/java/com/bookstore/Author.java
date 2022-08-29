@@ -13,4 +13,9 @@ public class Author {
 
     public Author() {
     }
+
+    public Author(String authorName, String authorPenName) {
+        this.authorName = authorName;
+        this.authorPenName = authorPenName;
+    }
 }
