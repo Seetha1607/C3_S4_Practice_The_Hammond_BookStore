@@ -15,4 +15,11 @@ public class Book {
 
     public Book() {
     }
+
+    public Book(String title, int isbnNumber, String description, double price) {
+        this.title = title;
+        this.isbnNumber = isbnNumber;
+        this.description = description;
+        this.price = price;
+    }
 }
