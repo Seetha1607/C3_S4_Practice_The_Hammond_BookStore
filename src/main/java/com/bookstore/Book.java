@@ -56,4 +56,20 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public void displayBookDetails() {
+        System.out.println("Title of the Book : " + title);
+        System.out.println("ISBN Number : " + isbnNumber);
+        System.out.println("Description : " + description);
+        System.out.println("Price of the Book : $" + price);
+        System.out.println("Author of the Book : " + author);
+    }
 }
