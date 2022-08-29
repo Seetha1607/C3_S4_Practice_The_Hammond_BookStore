@@ -12,15 +12,17 @@ public class Book {
     private int isbnNumber;
     private String description;
     private double price;
+    Author author;
 
     public Book() {
     }
 
-    public Book(String title, int isbnNumber, String description, double price) {
+    public Book(String title, int isbnNumber, String description, double price, Author author) {
         this.title = title;
         this.isbnNumber = isbnNumber;
         this.description = description;
         this.price = price;
+        this.author = author;
     }
 
     public String getTitle() {
