@@ -8,11 +8,11 @@
 package com.bookstore;
 
 public class Book {
+    Author author;
     private String title;
     private int isbnNumber;
     private String description;
     private double price;
-    Author author;
 
     public Book() {
     }
@@ -65,6 +65,9 @@ public class Book {
         this.author = author;
     }
 
+    /**
+     * The function `displayBookDetails()` displays the details of the book
+     */
     public void displayBookDetails() {
         System.out.println("Title of the Book : " + getTitle());
         System.out.println("ISBN Number : " + getIsbnNumber());
