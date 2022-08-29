@@ -66,10 +66,10 @@ public class Book {
     }
 
     public void displayBookDetails() {
-        System.out.println("Title of the Book : " + title);
-        System.out.println("ISBN Number : " + isbnNumber);
-        System.out.println("Description : " + description);
-        System.out.println("Price of the Book : $" + price);
-        System.out.println("Author of the Book : " + author);
+        System.out.println("Title of the Book : " + getTitle());
+        System.out.println("ISBN Number : " + getIsbnNumber());
+        System.out.println("Description : " + getDescription());
+        System.out.println("Price of the Book : $" + getPrice());
+        System.out.println("Author of the Book : " + getAuthor());
     }
 }
