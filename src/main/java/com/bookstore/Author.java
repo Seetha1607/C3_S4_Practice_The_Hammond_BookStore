@@ -18,4 +18,12 @@ public class Author {
         this.authorName = authorName;
         this.authorPenName = authorPenName;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "authorName='" + authorName + '\'' +
+                ", authorPenName='" + authorPenName + '\'' +
+                '}';
+    }
 }
